@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad ALsheleh</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ahmad ALsheleh</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container text-center">
+            <h1>Welcome to My Portfolio</h1>
+            <!-- <p>I am currently learning about web design and aiming to become a WebFull Stack developer</p> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am currently learning about web design and aiming to become a WebFull Stack developer.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <!-- Portfolio items -->
+            <div class="row">
+                <!-- Portfolio item 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./media/Currency Converter.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Currency Converter</h5>
+                            <p class="card-text">You can type any amount and it will be automatically converted into the currency you specify.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio item 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./media/8 puzzle use DFS.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">8 puzzle use DFS</h5>
+                            <p class="card-text">Solve the puzzle 8 using DFS based on artificial intelligence.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio item 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./media/تحليل نظام معرض الكتاب.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Analysis of the book fair system</h5>
+                            <p class="card-text">There is no description.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Fill out the form below to get in touch with me.</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
